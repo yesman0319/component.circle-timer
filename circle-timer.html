@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>圆形计时器组件</title>
+	<link rel="stylesheet" type="text/css" href="circle-timer.css">
+	<style type="text/css">
+		#circleWrapper{
+			width:200px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div id="circleWrapper"></div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="circle-timer.js"></script>
+	<script type="text/javascript">
+		var timer = new CircleProgress({
+			progressWidth:"10px",//进度条宽度
+			progressColor:"#00bb51",//进度条颜色
+			circleBgColor:"rgba(0,0,0,.2)",//圆形底部颜色
+			countdown:81,//倒计时时间
+		});
+	</script>
+</body>
+</html>
