@@ -5,9 +5,9 @@
 ## 演示
    [demo地址](https://yesman0319.github.io/component.circle-timer/circle-timer.html)
 ## 使用
-	先在body里添加一个div#circleWrapper的盒子节点;
-	然后指定该外层盒子的宽高;
-	然后 new CircleProgress() 实例.
+####	1.先在body里添加一个div#circleWrapper的盒子节点;
+####	2.然后指定该外层盒子的宽高;
+####	3.然后 new CircleProgress() 实例.
 ### 可选参数
 	opts = {
 		progressWidth:"2px",//进度条宽度
