@@ -7,7 +7,7 @@ one jquery circle progress timer component
   先在body里添加一个div#circleWrapper的节点
   然后 new CircleProgress（）的实例。
 ### 可选参数
-   |- opts = {
+   opts = {
 		progressWidth:"2px",//进度条宽度
 		progressColor:"#fff",//进度条颜色
 		circleBgColor:"rgba(0,0,0,.2)",//圆形底部颜色
