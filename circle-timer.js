@@ -1,3 +1,5 @@
+var isTimeOut = false;//全局计时标识
+
 //圆形计时器组件
 function CircleProgress(opts){
 	//可选参数（默认参数）
@@ -44,6 +46,7 @@ CircleProgress.prototype = {
 			$("#circle-timer>span").html(format_time(countdownTime));
 			if(countdownTime <= 0){
 				isTimeOut = true;
+				console.log(isTimeOut);
 				clearInterval(interval);
 			}
 		},1000)
