@@ -65,7 +65,6 @@ CircleProgress.prototype = {
 		};
 	},
 	init(){
-		var that = this;
 		$("#circleWrapper").html(this.template());
 		this.countDown();
 		//设置外层盒子的样式
@@ -75,13 +74,13 @@ CircleProgress.prototype = {
 		//设置内部需要旋转的样式
 		$("#circleProgress .rightcircle").css({
 			"border-width":this.opts.progressWidth,
-			"border-top-color":that.opts.progressColor,
-			"border-right-color":that.opts.progressColor
+			"border-top-color":this.opts.progressColor,
+			"border-right-color":this.opts.progressColor
 		});
 		$("#circleProgress .leftcircle").css({
 			"border-width":this.opts.progressWidth,
-			"border-bottom-color":that.opts.progressColor,
-			"border-left-color":that.opts.progressColor
+			"border-bottom-color":this.opts.progressColor,
+			"border-left-color":this.opts.progressColor
 		});
 		
 	}
