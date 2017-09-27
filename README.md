@@ -15,4 +15,5 @@
 		circleBgColor:"rgba(0,0,0,.2)",//圆形底部颜色
 		countdown:61,//倒计时时间
 	}
-   
+### change log 2017-09-27
+* js采用es6重写
