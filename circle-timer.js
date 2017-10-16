@@ -14,6 +14,8 @@ class CircleProgress{
 			countdown:61,//倒计时时间
 		}
 		this.opts = this.extend(this.defaults, opts);
+		//es6对象新方法,参考https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+		// this.opts = Object.assign(this.defaults,opts);
 		this.init();
 	}
 	extend(defaults,src){
